@@ -5,10 +5,12 @@ import HomePt2 from './Components/Home/HomePt2';
 
 function App() {
   return (
+
    <>
    <Home />
    <HomePt2 />
    </>
+
   );
 }
 
