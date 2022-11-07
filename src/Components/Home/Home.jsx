@@ -6,6 +6,7 @@ import HomePt5 from './HomePt5'
 import HomePt6 from './HomePt6'
 import HomePt7 from './HomePt7'
 import HomePt8 from './HomePt8'
+import pratoPrincipal from '../../Images/PratoPrincipal.png'
 function Home(){
     return(
        <>
@@ -13,6 +14,9 @@ function Home(){
         <div className={styles.txt}>
             <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut hic quidem praesentium, eos repellat officia tenetur </h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae sequi iste maiores tempore ullam! Nobis obcaecati veritatis, non ducimus maxime minus ex, neque deserunt illo placeat in qui cum!</p>
+        </div>
+        <div className={styles.img}>
+            <img src={pratoPrincipal} alt="" />
         </div>
         <div className={styles.laranja}>
             laranja

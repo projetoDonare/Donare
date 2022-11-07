@@ -3,4 +3,20 @@ header{
     height: 80px;
     background-color: blue;
     /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    background-color: yellow;
+}
+.logo img{
+    width: 30%;
+    height: 80px;
+}
+.menu{
+    background-color: antiquewhite;
+    width: 50%;
+    display: flex;
 }

@@ -21,6 +21,16 @@
 .txt p{
     width: 80%;
 }
+.img{
+    width: 30%;
+    position: absolute;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center; 
+}
+.img img{
+    width: 100%;
+}
  .laranja{
     width: 48%;
     height:700px;
