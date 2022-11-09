@@ -11,16 +11,10 @@ function Home(){
     return(
        <>
         <section className={styles.Home}>
-        <div className={styles.txt}>
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut hic quidem praesentium, eos repellat officia tenetur </h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae sequi iste maiores tempore ullam! Nobis obcaecati veritatis, non ducimus maxime minus ex, neque deserunt illo placeat in qui cum!</p>
-        </div>
-        <div className={styles.img}>
-            <img src={pratoPrincipal} alt="" />
-        </div>
-        <div className={styles.laranja}>
-            laranja
-        </div>
+<div className={styles.txt}>
+    <h1>Você sabia que 58,7% do Brasil possue insegurança alimentar?</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur reprehenderit commodi eveniet quod tempore eaque sequi dolore ea, molestiae explicabo deserunt amet ducimus. Fugiat itaque eius ullam. Maxime, dicta commodi.</p>
+</div>
         </section>
         <HomePt2 />
         <HomePt3 />

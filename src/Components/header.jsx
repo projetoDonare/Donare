@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from '../Css/Header.module.css'
 import logo from '../Images/Logo.png'
 function Header(){
@@ -8,12 +9,15 @@ function Header(){
             </div>
             <nav className={styles.menu}>
                 <ul>
-                    <li>ola</li>
-                    <li>ola</li>
-                    <li>ola</li>
-                    <li>ola</li>
-                    <li>ola</li>
+                    <li>Pagina principal</li>
+                    <li>Voluntariado</li>
+                    <li>Ong's</li>
+                    <li>Doadores</li>
+                    <li>Informativo</li>
                 </ul>
+              <Link>
+              <button className={styles.btn}>Doar</button>
+              </Link>
              </nav>
         </header>
     )
