@@ -1,14 +1,24 @@
 .Home {
     width:100%;
     height:723px;
-    background-color:#FF9900;
-    
+    background-image:url(../../Images/BGHome3.png);
+    background-position:left bottom;
 }
 
-.borda {}
+.div1{
+    /* background: blue; */
+    float: left;
+    width: auto;
+    height: auto;
+    margin-right:190px;
+}
 
-.txt {}
-
-.txt p {}
-
-.linha {}
+.div2{
+    /* background-color: green; */
+    float: left;
+    width: auto;
+    text-align:center;
+    font-size:35px;
+    padding-top: 125px;
+    
+}
