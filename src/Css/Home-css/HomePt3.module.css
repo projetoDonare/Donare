@@ -3,6 +3,8 @@
     height:723px;
     background-image:url(../../Images/BGHome3.png);
     background-position:left bottom;
+    background-repeat: no-repeat;
+    background-size:100%;
 }
 
 .div1{
