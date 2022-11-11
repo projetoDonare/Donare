@@ -2,44 +2,37 @@
     width: 100%;
     height: 800px;
     display: flex;
-    align-items:center;
-    justify-content: right;
+    align-items: center;
     /* background-color: red; */
     background-image:url(../../Images/BGHomePt2.png) ;
-    background-repeat: no-repeat;
-    background-size: 100%;
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .borda{
     width: 35%;
-    height:500px ;
+    height:400px ;
     position: absolute;
     border: 3px solid black;
     border-radius: 20px;
    z-index: 2;
-   left:910px;
+   left: 910px;
    top: 970px;
 
 }
 .txt{
     background-color: #FFBB09;
     width: 35%;
-    margin-top: 200px;
-    margin-right: 100px;
-    height: 500px;
+    margin-left: 100px;
+    height: 400px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items:center;
-    text-align: justify;
     flex-direction: column;
     border-radius: 20px;
 }
-.txt h1{
-    width: 80%;
-    
-}
 .txt p{
-width: 80%;
+width: 70%;
 }
 .linha{
     width: 60px;
