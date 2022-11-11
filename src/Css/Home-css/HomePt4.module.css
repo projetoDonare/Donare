@@ -1,5 +1,8 @@
 .Home{
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background-color:aqua;
+    background-image: url(../../Images/teste.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
