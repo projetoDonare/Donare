@@ -7,34 +7,41 @@
     background-image: url(../../Images/BGHomePt2.png);
     background-repeat: no-repeat;
     background-size: 100%;
+justify-content: right;
 }
 
 .borda {
     width: 35%;
-    height: 400px;
+    height: 500px;
     position: absolute;
     border: 3px solid black;
     border-radius: 20px;
-    z-index: 2;
-    left: 910px;
-    top: 970px;
-
+     z-index: 2;
+     left: 900px;
+     top: 980px;
+    
 }
 
 .txt {
     background-color: #FFBB09;
+    margin-top: 150px;
+    margin-right: 120px; 
     width: 35%;
     margin-left: 100px;
-    height: 400px;
+    height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    text-align: justify;
+}
+.txt h1{
+    width: 80%;
 }
 
 .txt p {
-    width: 70%;
+    width: 80%;
 }
 
 .linha {
