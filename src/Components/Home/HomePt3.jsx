@@ -17,4 +17,4 @@ function HomePt3() {
     </section>
   )
 }
-export default HomePt3
+export default HomePt3;
