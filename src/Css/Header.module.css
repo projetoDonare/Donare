@@ -3,11 +3,11 @@ header {
     /* height: 80px; */
     height: 11%;
     background-color: #F2F2F2;
-    position: fixed, absolute;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
 }
 
 .logo {
