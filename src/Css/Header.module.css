@@ -50,6 +50,6 @@ header {
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
