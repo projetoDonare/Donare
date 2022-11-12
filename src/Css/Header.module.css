@@ -1,8 +1,8 @@
 header {
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
+    height: 9%;
     background-color: #F2F2F2;
-    
     position: fixed;
     display: flex;
     justify-content: space-evenly;
@@ -11,8 +11,8 @@ header {
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 5%;
+    height: 5%;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
@@ -39,16 +39,16 @@ header {
     justify-content: space-around;
     align-items: center;
     /* background-color: red; */
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
 }
 
 .btn {
     width: 120px;
     height: 40px;
-    background-color: aquamarine;
+    background-color: #EB5E36;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
     border-radius: 20px;
     cursor: pointer;

@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <div className={styles.logo}>
-                <img src={logo} alt="" />
+                <img src={logo} alt="Logo" />
             </div>
             <nav className={styles.menu}>
                 <ul>

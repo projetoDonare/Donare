@@ -6,7 +6,7 @@ function HomePt2() {
       <div className={styles.borda}></div>
 
 <div className={styles.txt}>
-  <h1>Cerca de 27 milões de toneladas de alimentos vão para o lixo todos os dias no Estado de São Paulo</h1>
+  <h1>Cerca de 27 milhões de toneladas de alimentos vão para o lixo todos os dias no Estado de São Paulo</h1>
   <br />
   <div className={styles.linha}></div>
   <br />
