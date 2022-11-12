@@ -6,11 +6,8 @@ import SejaDoador from '../../Images/image_sejaDoador.png'
 function HomePt4() {
     return (
         <section className={styles.Home}>
-            <div className={styles.div_imagem}>
-                <img src={sejaVoluntario} alt="" />
-            </div>
-            <div className={styles.div_imagem}>
-                <img src={SejaDoador} alt="" />
+            <div className={styles.container_imagens}>
+
             </div>
         </section>
     )
