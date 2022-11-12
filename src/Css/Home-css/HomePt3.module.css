@@ -12,7 +12,8 @@
     float: left;
     width: auto;
     height: auto;
-    margin-right:190px;
+    margin-left:10%;
+    margin-top: 6%
 }
 
 .div2{
@@ -21,6 +22,8 @@
     width: auto;
     text-align:center;
     font-size:35px;
-    padding-top: 125px;
+    padding-top: 12%;
+    padding-left: 9%;
+    font-weight: bolder;
     
 }
