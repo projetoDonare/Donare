@@ -1,10 +1,10 @@
 .Home {
     width:100%;
-    height:751px;
+    height:757px;
     background-image:url(../../Images/BGHome3.png);
-    background-position:left bottom;
     background-repeat: no-repeat;
     background-size:100%;
+    background-position:bottom;
 }
 
 .div1{
