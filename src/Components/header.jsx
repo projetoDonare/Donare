@@ -5,20 +5,18 @@ function Header() {
     return (
         <header>
             <div className={styles.logo}>
-                <img src={logo} alt="Logo" />
+                <Link to="/"><img src={logo} alt="Logo" /></Link>
             </div>
             <nav className={styles.menu}>
-
                 <ul>
-                    <li><Link to="/">Pagina principal</Link></li>
+                    <li><Link to="/Projeto">Projeto</Link></li>
                     <li><Link to="/Apoiadores">Apoiadores</Link></li>
                     <li><Link to="/Instituicoes">Instituições</Link></li>
-                    <li><Link to="/Doadores">Doadores</Link></li>
-                    <li><Link to="/Informativo">Informativo</Link></li>
+                    <li><Link to="/Voluntario">Voluntario</Link></li>
+                    <li><Link to="/Apoiadores">Apoiadores</Link></li>
+                    <li>Meu Perfil</li>
                 </ul>
-                <Link>
-                    <button className={styles.btn}>Doar</button>
-                </Link>
+                {/* <Link><button className={styles.btn}>Doar</button></Link> */}
             </nav>
         </header>
     )
