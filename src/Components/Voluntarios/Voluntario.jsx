@@ -15,4 +15,4 @@ function Voluntario() {
     )
 }
 
-export default Voluntario
+export default Voluntario;
