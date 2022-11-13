@@ -1,4 +1,4 @@
-import styles from '../../Css/Home-css/Home.module.css'
+import styles from '../../Css/Home_css/Home.module.css'
 import HomePt2 from './HomePt2'
 import HomePt3 from './HomePt3'
 import HomePt4 from './HomePt4'

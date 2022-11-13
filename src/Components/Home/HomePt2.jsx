@@ -1,4 +1,4 @@
-import styles from "../../Css/Home-css/HomePt2.module.css";
+import styles from "../../Css/Home_css/HomePt2.module.css";
 
 function HomePt2() {
   return (

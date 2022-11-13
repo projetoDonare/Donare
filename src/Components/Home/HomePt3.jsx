@@ -1,4 +1,4 @@
-import styles from '../../Css/Home-css/HomePt3.module.css'
+import styles from '../../Css/Home_css/HomePt3.module.css'
 import graficoPrato from '../../Images/imagem_graficoPrato.png'
 
 
