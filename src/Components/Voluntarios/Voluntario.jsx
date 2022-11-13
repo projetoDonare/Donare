@@ -1,5 +1,6 @@
 import styles from '../../Css/Voluntario_css/Voluntario.module.css'
-import img_voluntario1 from '../../Images/img_voluntario1.png'
+import imagemvoluntario from '../../Images/img_voluntario1.png'
+
 function Voluntario() {
     return (
         <>
@@ -8,8 +9,8 @@ function Voluntario() {
                     <h1>Existem muitas formas de ajudar o próximo</h1>
                     <h2>Veja como você pode se voluntariar</h2>
                 </div>
-                <div className={img_voluntario1}>
-                    
+                <div className={styles.container_imagem}>
+                   <img src={imagemvoluntario} alt="oi" />
                 </div>
             </section>
         </>

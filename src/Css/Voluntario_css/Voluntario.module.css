@@ -1,4 +1,4 @@
-.page1{
+.page1 {
     width: 100%;
     margin: auto;
     height: 730px;
@@ -8,10 +8,10 @@
     background-size: 100%;
     display: flex;
     flex-direction: row;
-    position:absolute;
+    position: absolute;
 }
 
-.txt h1{
+.txt h1 {
     width: 35%;
     position: absolute;
     z-index: 3;
@@ -21,7 +21,7 @@
 
 }
 
-.txt h2{
+.txt h2 {
     width: 35%;
     position: absolute;
     z-index: 3;
@@ -31,7 +31,7 @@
     color: white;
 }
 
-.img_voluntario1{
+/* .img_voluntario1 {
     z-index: 3;
     position: absolute;
-}
+} */

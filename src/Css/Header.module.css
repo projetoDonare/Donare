@@ -68,9 +68,23 @@ header{
 .logo{
     width: 7%;
     height: 100%;
+    margin-left: 3.59%;
 }
 
 .logo img{
     width: 100%;
     height: 100%;
+}
+
+.menu{
+    /* width: auto; */
+    height: auto;
+    background-color: blue;
+    /* margin-top:5%; */
+}
+
+.menu ul{
+    display:flex;
+    flex-direction: row;
+    /* background-color: green; */
 }
