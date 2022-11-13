@@ -9,11 +9,11 @@ function Header() {
             </div>
             <nav className={styles.menu}>
                 <ul>
-                    <li>Pagina principal</li>
-                    <li>Voluntariado</li>
-                    <li>Ong's</li>
-                    <li>Doadores</li>
-                    <li>Informativo</li>
+                    <li><Link to="/">Pagina principal</Link></li>
+                    <li><Link to="/Voluntariado">Voluntariado</Link></li>
+                    <li><Link to="/instituições">Instituições</Link></li>
+                    <li><Link to="/Doadores">Doadores</Link></li>
+                    <li><Link to="/Informativo">Informativo</Link></li>
                 </ul>
                 <Link>
                     <button className={styles.btn}>Doar</button>
