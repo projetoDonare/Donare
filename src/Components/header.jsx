@@ -8,13 +8,14 @@ function Header() {
                 <img src={logo} alt="Logo" />
             </div>
             <nav className={styles.menu}>
-                <ul>
+                 
+                 <ul>
                     <li>Pagina principal</li>
-                    <li>Voluntariado</li>
+                    <li>Apoiadores</li>
                     <li>Ong's</li>
                     <li>Doadores</li>
                     <li>Informativo</li>
-                </ul>
+                </ul>  
                 <Link>
                     <button className={styles.btn}>Doar</button>
                 </Link>

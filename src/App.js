@@ -1,6 +1,5 @@
-
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home/Home';
@@ -10,23 +9,24 @@ import HomePt4 from './Components/Home/HomePt4';
 
 
 function App() {
-  return (
 
-   <>
-<Router>
-<Header />
-   <Routes>
-   <Route path='/' element={<Home />} />
-   <Route path='/HomePt2' element={<HomePt2 />} />
-   <Route path='/HomePt3' element={<HomePt3 />} />
-   <Route path='/HomePt4' element={<HomePt4 />} />
+   return (
 
-   </Routes>
-<Footer />
-</Router>
-   </>
+      <>
+         <Router>
+            <Header />
+            <Routes>
+               <Route path='/' element={<Home />} />
+               <Route path='/HomePt2' element={<HomePt2 />} />
+               <Route path='/HomePt3' element={<HomePt3 />} />
+               <Route path='/HomePt4' element={<HomePt4 />} />
 
-  );
+            </Routes>
+            <Footer />
+         </Router>
+      </>
+
+   );
 }
 
 export default App;
