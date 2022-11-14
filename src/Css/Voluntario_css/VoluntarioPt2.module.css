@@ -1,8 +1,8 @@
 .page2{
-    height: 1167px;
+    height: 550px;
     display: flex;
     flex-direction: row;
-    /* background-color: rgb(187, 255, 244); */
+    background-color: rgb(187, 255, 244);
 }
 
 .motorista1{
