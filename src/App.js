@@ -5,7 +5,8 @@ import Header from './Components/Header';
 import Home from './Components/Home/Home';
 import Voluntario from './Components/Voluntarios/Voluntario'
 import Instituicoes from './Components/Instituicoes/Instituicoes'
-import Doadores from './Components/Apoiadores/Apoiadores'
+import Apoiadores from './Components/Apoiadores/Apoiadores'
+
 
 function App() {
       return (
@@ -14,9 +15,9 @@ function App() {
                   <Header />
                   <Routes>
                         <Route path='/' element={<Home />} />
-                        <Route path='/Voluntario' element={<Voluntario />} />
                         <Route path='/Instituicoes' element={<Instituicoes />} />
-                        <Route path='/Doadores' element={<Doadores />} />
+                        <Route path='/Voluntario' element={<Voluntario />} />
+                        <Route path='/Apoiadores' element={<Apoiadores />}></Route>
                   </Routes>
                   <Footer />
             </Router>

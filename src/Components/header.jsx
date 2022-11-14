@@ -10,7 +10,6 @@ function Header() {
             <nav className={styles.menu}>
                 <ul>
                     <li><Link to="/Projeto">Projeto</Link></li>
-                    <li><Link to="/Apoiadores">Apoiadores</Link></li>
                     <li><Link to="/Instituicoes">Instituições</Link></li>
                     <li><Link to="/Voluntario">Voluntario</Link></li>
                     <li><Link to="/Apoiadores">Apoiadores</Link></li>
