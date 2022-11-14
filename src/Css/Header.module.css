@@ -1,3 +1,5 @@
+
+
 /* header {
     width: 100%;
     height: 80px;
@@ -58,8 +60,8 @@
 header{
     width: 100%;
     height: 15%;
-    /* background: #F2F2F2; */
-    background-color: blue;
+    background: #F2F2F2;
+    /* background-color: blue; */
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -70,6 +72,7 @@ header{
     width: 7%;
     height: 100%;
     margin-left: 3.59%;
+    margin-right:17.03125%
 }
 
 .logo img{
@@ -78,15 +81,24 @@ header{
 }
 
 .menu{
-    /* width: auto; */
-    height: auto;
+    width: 72.38%;
+    height: 100%;
     /* background-color: blue; */
-    /* margin-top:5%; */
+    align-items:center;
 }
 
 .menu ul{
     display:flex;
-    margin-top: 7%;
-    /* flex-direction: row; */
-    /* background-color: green; */
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    /* cursor: pointer; */
+}
+
+a:hover{
+    color: #FD4A0A;
+    transition:0.2s;
 }
