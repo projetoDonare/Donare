@@ -1,7 +1,9 @@
 import styles from '../../Css/Voluntario_css/Voluntario.module.css'
 import imagemvoluntario from '../../Images/img_voluntario1.png'
-import VoluntarioPt2 from './voluntarioPt2'
+import VoluntarioPt2 from './VoluntarioPt2'
 import VoluntarioPt3 from './VoluntarioPt3'
+
+
 function Voluntario() {
     return (
         <>
@@ -14,9 +16,11 @@ function Voluntario() {
                     <img src={imagemvoluntario} alt="" />
                 </div>
             </section>
+            <VoluntarioPt2 />
+            <VoluntarioPt3 />
 
         </>
-    );
-};
+    )
+}
 
 export default Voluntario;

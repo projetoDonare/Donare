@@ -5,7 +5,7 @@
     display: flex;
     background-image: url(../../Images/VoluntarioPt1.png);
     background-repeat: no-repeat;
-    background-size: 100% 86%;
+    background-size: 100% 76%;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -16,7 +16,7 @@
     width: 35%;
     position: absolute;
     z-index: 3;
-    padding-top: 18%;
+    padding-top: 11%;
     padding-left: 10%;
     font-size: 40px;
 
@@ -26,7 +26,7 @@
     width: 35%;
     position: absolute;
     z-index: 3;
-    padding-top: 28%;
+    padding-top: 21%;
     padding-left: 10%;
     font-size: 40px;
     color: white;
@@ -34,5 +34,5 @@
 
 .container_imagem{
     margin-left: 60%;
-    margin-top: 15%;
+    margin-top: 9%;
 }
