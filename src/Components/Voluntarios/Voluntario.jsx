@@ -3,7 +3,6 @@ import imagemvoluntario from '../../Images/img_voluntario1.png'
 import VoluntarioPt2 from './VoluntarioPt2'
 import VoluntarioPt3 from './VoluntarioPt3'
 
-
 function Voluntario() {
     return (
         <>
@@ -18,7 +17,7 @@ function Voluntario() {
             </section>
             <VoluntarioPt2 />
             <VoluntarioPt3 />
-
+            
         </>
     )
 }

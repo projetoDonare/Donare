@@ -11,4 +11,4 @@ function VoluntarioPt2() {
     )
 }
 
-export default VoluntarioPt2
+export default VoluntarioPt2;

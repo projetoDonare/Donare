@@ -13,6 +13,7 @@ function Home() {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur reprehenderit commodi eveniet quod tempore eaque sequi dolore ea, molestiae explicabo deserunt amet ducimus. Fugiat itaque eius ullam. Maxime, dicta commodi.</p>
                 </div>
             </section>
+            
             <HomePt2 />
             <HomePt3 />
             <HomePt4 />
