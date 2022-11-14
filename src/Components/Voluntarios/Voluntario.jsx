@@ -1,5 +1,7 @@
 import styles from '../../Css/Voluntario_css/Voluntario.module.css'
 import imagemvoluntario from '../../Images/img_voluntario1.png'
+import VoluntarioPt2 from './VoluntarioPt2'
+import VoluntarioPt3 from './VoluntarioPt3'
 
 function Voluntario() {
     return (
@@ -10,9 +12,10 @@ function Voluntario() {
                     <h2>Veja como você pode se voluntariar</h2>
                 </div>
                 <div className={styles.container_imagem}>
-                   <img src={imagemvoluntario} alt="oi" />
+                    <img src={imagemvoluntario} alt="" />
                 </div>
             </section>
+
         </>
     );
 };
