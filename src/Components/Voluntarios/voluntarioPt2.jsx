@@ -7,6 +7,8 @@ function VoluntarioPt2() {
             <div className={styles.motorista1}>
                 <img src={motorista1} alt="" />
             </div>
+
+            <div className={styles.borda}></div>
             <div className={styles.txt2}>
                 <h1>Como ser voluntario</h1>
                 <br />
