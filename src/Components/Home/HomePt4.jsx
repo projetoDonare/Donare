@@ -1,15 +1,19 @@
 import styles from '../../Css/Home_css/HomePt4.module.css'
-import sejaVoluntario from '../../Images/imagem_sejaVoluntario.png'
-import SejaDoador from '../../Images/image_sejaDoador.png'
+import { Link } from 'react-router-dom'
 
 
 function HomePt4() {
     return (
-        <section className={styles.Home}>
-            <div className={styles.container_imagens}>
-
-            </div>
-        </section>
+        <>
+            <section className={styles.Home}>
+                <div>
+                    <div>
+                        
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+        </>
     )
 }
 export default HomePt4
