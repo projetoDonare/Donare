@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
 import styles from '../Css/Header.module.css'
 import logo from '../Images/Logo.png'
+import Logo2 from '../Images/Logo2.png'
 function Header() {
     return (
         <header>
             <div className={styles.logo}>
-                <Link to="/"><img src={logo} alt="Logo" /></Link>
+                {/* <Link to="/"><img src={logo} alt="Logo" /></Link> */}
+                <Link to="/"><img src={Logo2} alt="Logo" /></Link>
             </div>
             <nav className={styles.menu}>
                 <ul>
