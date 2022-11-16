@@ -1,0 +1,48 @@
+.ApoiadoresPt2{
+    background-color:#EBDFAB;
+    width: 100%;
+    height:846px;
+    display:flex;
+    flex-direction:column;
+    /* margin: auto; */
+}
+
+.ApoiadoresPt2 h1{
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:80px;
+}
+
+.containerMercados{
+    /* background-color:blue; */
+    margin: auto;
+    width: 65%;
+    height: 568px;;
+    /* display: flex; */
+    /* flex-direction:column; */
+    /* margin-left: 10px; */
+    padding-left:40px;
+}
+
+.containerMercados div{
+    /* border:2px solid black; */
+    border-radius:10px;
+    width: 199px;
+    height: 171px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.divVermelha{
+    background-color:#EB5E36;
+    border:2px solid #EB5E36;
+    box-shadow:0px 0px 5px black;
+}
+
+.divAmarela{
+    background-color:#FF9900;
+    border:2px solid #FF9900;
+    box-shadow:0px 0px 5px black;
+}
