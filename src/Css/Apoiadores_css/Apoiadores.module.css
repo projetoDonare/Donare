@@ -1,6 +1,8 @@
 .Apoiadores1{
     width:100%;
-    height:500px;
+    height:700px;
     background-image:url(../../Images/BGApoiadoresPt1.png);
-    
+    background-repeat: no-repeat;
+    background-position-y:45px ;
+    background-size: 100%;
 }

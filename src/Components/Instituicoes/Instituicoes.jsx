@@ -1,7 +1,8 @@
 import styles from '../../Css/Instituicoes/Instituicoes.module.css'
-import InstituicoesPt2 from './InstituicoesPt2'
+import Carousel from './InstituicoesPt2'
 
 function Instituicoes(){
+    
     return(
    <>
         <section className={styles.instituicoes}>
@@ -12,7 +13,7 @@ Conheça as Ongs e Igrejas que lutam contra a fome que mata milhares de brasilei
 </p>
 </div>
         </section>
-        <InstituicoesPt2 />
+    
    </>
     )
 }
