@@ -1,5 +1,5 @@
 import styles from "../../Css/Voluntario_css/VoluntarioPt3.module.css"
-import motorista1 from '../../Images/motorista1.png'
+import motorista2 from '../../Images/motorista2.png'
 import onda_voluntario from '../../Images/onda_voluntario.png'
 
 function VoluntarioPt3() {
@@ -14,8 +14,8 @@ function VoluntarioPt3() {
 
             <div className={styles.borda}></div>
 
-            <div className={styles.motorista1}>
-                <img src={motorista1} alt="" />
+            <div className={styles.motorista2}>
+                <img src={motorista2} alt="" />
             </div>
 
             {/* <div className={styles.onda}>

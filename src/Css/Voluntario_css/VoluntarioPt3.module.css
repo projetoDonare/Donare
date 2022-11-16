@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.motorista1{
+.motorista2{
     margin-left: 225px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
 
 }
 
-.motorista1 img{
+.motorista2 img{
     width: 80%;
 }
 
