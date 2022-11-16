@@ -17,7 +17,7 @@ function Voluntario() {
             </section>
             <VoluntarioPt2 />
             <VoluntarioPt3 />
-            
+
         </>
     )
 }
