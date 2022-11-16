@@ -66,6 +66,21 @@
 .txt3 p{
     width: 70%;
     color: white;
+    margin-bottom:10px;
+}
+
+.txt3 a{
+    text-decoration:underline;
+    color:white;
+    font-size:20px;
+}
+
+.txt3 a:hover{
+    color:#352E67;
+}
+
+.txt3 a:active{
+    color:white;
 }
 
 .onda{
