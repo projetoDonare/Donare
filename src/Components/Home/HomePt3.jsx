@@ -1,18 +1,16 @@
 import styles from '../../Css/Home_css/HomePt3.module.css'
-import graficoPrato from '../../Images/imagem_graficoPrato.png'
+import PratoGrafico from '../../Images/PratoGrafico.png'
 
 
 function HomePt3() {
   return (
     <section className={styles.Home}>
-      <div className={styles.div1}>
-        <img src={graficoPrato} alt="grafico em formato de prato" />
+      <div className={styles.container_ImagemPrato}>
+        <img src={PratoGrafico} alt="grafico em formato de prato" />
       </div>
 
-      <div className={styles.div2}>
-        <p>A insegurança</p>
-        <p>alimentar em</p>
-        <p>São Paulo</p>
+      <div className={styles.container_Texto}>
+        <p>A insegurança alimentar em São Paulo</p>
       </div>
     </section>
   )
