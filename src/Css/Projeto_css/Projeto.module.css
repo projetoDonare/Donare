@@ -1,28 +1,25 @@
-.Home {
+.Projeto{
     width: 100%;
-    margin: auto;
-    height: 730px;
+    height: 600px;
     /* background-color: red; */
-    background-image: url(../../Images/BGHome.png);
+    background-image: url(../../Images/BGProjeto.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
     display: flex;
   
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
 
-.txt {
+.txt{
     width: 40%;
-    /* background-color: red; */
-    margin-left: 100px;
     height: 400px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.txt h1 {
+.txt h1{
     font-size: 40px;
 }
