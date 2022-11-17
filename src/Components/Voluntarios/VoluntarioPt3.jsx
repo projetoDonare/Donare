@@ -12,7 +12,7 @@ function VoluntarioPt3() {
                 <p>
                     Muitas ongs não possuem condições de ir buscar o alimento doado, pensando nisso nós desenvolvemos a possibilidade de você que possui veiculo poder ir buscar os alimentos doados
                 </p>
-                <Link to="/cadastro">se inscreva</Link>
+                <Link to="/Cadastro">se inscreva</Link>
             </div>
 
             <div className={styles.borda}></div>

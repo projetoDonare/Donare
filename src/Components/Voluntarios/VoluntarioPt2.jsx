@@ -1,11 +1,11 @@
 import styles from "../../Css/Voluntario_css/VoluntarioPt2.module.css"
-import motorista1 from '../../Images/motorista1.png'
+import voluntario1 from '../../Images/voluntario1.png'
 
 function VoluntarioPt2() {
     return (
         <section className={styles.page2}>
-            <div className={styles.motorista1}>
-                <img src={motorista1} alt="" />
+            <div className={styles.voluntario1}>
+                <img src={voluntario1} alt="" />
             </div>
 
             <div className={styles.borda}></div>

@@ -16,7 +16,7 @@
 .motorista2{
     width: 35%;
     height: 400px;
-    margin-left: 225px;
+    margin-left: 174px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,14 +36,13 @@
     border: 3px solid black;
     border-radius: 20px;
     z-index: 2;
-    margin-top: 100px;
-    margin-left: 195px;
+    margin-top: 50px;
+    margin-left: 260px;
 }
 
 .txt3 {
     background-color: #FD4A0A;
-    margin-top: 70px;
-    margin-left: 165px;
+    margin-left: 240px;
     width: 25%;
     height: 60%;
     display: flex;
@@ -70,7 +69,7 @@
 }
 
 .txt3 a{
-    text-decoration:underline;
+    text-decoration: none;
     color:white;
     font-size:20px;
 }
