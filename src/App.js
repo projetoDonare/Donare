@@ -7,6 +7,7 @@ import Voluntario from './Components/Voluntarios/Voluntario'
 import Instituicoes from './Components/Instituicoes/Instituicoes'
 import Apoiadores from './Components/Apoiadores/Apoiadores'
 import Projeto from   './Components/Projeto/Projeto'
+import Cadastro from './Components/Cadastro/Cadastro';
 
 function App() {
       return (
@@ -18,8 +19,11 @@ function App() {
                         <Route path='/Projeto' element={<Projeto />} />
                         <Route path='/Instituicoes' element={<Instituicoes />} />
                         <Route path='/Voluntario' element={<Voluntario />} />
-                        <Route path='/Apoiadores' element={<Apoiadores />}></Route>
+                        <Route path='/Apoiadores' element={<Apoiadores />} />
+                        <Route path='/Cadastro' element={<Cadastro />} />
                   </Routes>
+
+                  
                   <Footer />
             </Router>
             </>
