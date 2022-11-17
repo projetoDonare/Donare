@@ -1,5 +1,6 @@
 import styles from '../../Css/Projeto_css/Projeto.module.css'
 import ProjetoPt2 from './ProjetoPt2'
+import ProjetoPt3 from './ProjetoPt3';
 
 function Projeto(){
     return(
@@ -13,6 +14,7 @@ function Projeto(){
          </div>
         </section>
         <ProjetoPt2 />
+        <ProjetoPt3 />
         </>
     )
 }
