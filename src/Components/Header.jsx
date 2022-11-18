@@ -7,14 +7,14 @@ function Header() {
         <header>
             <div className={styles.logo}>
                 {/* <Link to="/"><img src={logo} alt="Logo" /></Link> */}
-                <Link to="/"><img src={Logo2} alt="Logo" /></Link>
+                <Link to="/"><img src={Logo2} alt="Logo" target={'_top'}/></Link>
             </div>
             <nav className={styles.menu}>
                 <ul>
-                    <li><Link to="/Projeto">Projeto</Link></li>
-                    <li><Link to="/Instituicoes">Instituições</Link></li>
-                    <li><Link to="/Voluntario">Voluntario</Link></li>
-                    <li><Link to="/Apoiadores">Apoiadores</Link></li>
+                    <li><Link to="/Projeto" target={'_top'}>Projeto</Link></li>
+                    <li><Link to="/Instituicoes" target={'_top'}>Instituições</Link></li>
+                    <li><Link to="/Voluntario" target={'_top'}>Voluntario</Link></li>
+                    <li><Link to="/Apoiadores" target={'_top'}>Apoiadores</Link></li>
                     <li>Meu Perfil</li>
                 </ul>
                 {/* <Link><button className={styles.btn}>Doar</button></Link> */}
