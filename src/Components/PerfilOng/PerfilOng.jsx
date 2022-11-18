@@ -13,11 +13,11 @@ function PerfilOng() {
                     <p>Telefone:  (11) 3535-3535</p>
                     <p className={styles.email}>E-mail: meninojesus@gmail.com</p>
 
+                    <div className={styles.borda}></div>
                     <div className={styles.txt2}>
                         <p>Texto sobre a ong, o que ela faz, quais suas metas e etc</p>
                     </div>
-
-                    <div className={styles.borda}></div>
+                    
 
                 </div>
     

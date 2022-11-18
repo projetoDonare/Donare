@@ -1,6 +1,6 @@
 .page1{
-    background-color: rgb(223, 255, 251);
-    height: 930px;
+    /* background-color: rgb(223, 255, 251); */
+    height: 630px;
     background-image: url(../../Images/perfilong1.png);
     background-repeat: no-repeat;
     background-size: 100% 35%;
@@ -39,8 +39,8 @@
 
 .txt2{
     background-color: #EBDFAB;
-    margin-top: 300px;
-    height: 100px;
+    margin-top: 340px;
+    height: 150px;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -55,11 +55,12 @@
     width: 35%;
 }
 
-.borda{
-    width: 25%;
-    height: 1170px;
+.borda {
+    width: 81%;
+    height: 570px;
+    margin-left: 100px;
     display: flex;
     border: 3px solid black;
-    border-radius: 20px;
-    margin-top: 50px;
+    z-index: 1;
+    margin-top: 70px;
 }
