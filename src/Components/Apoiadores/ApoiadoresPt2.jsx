@@ -7,18 +7,24 @@ function ApoiadoresPt2(){
             Empresas Parceiras do projeto
             </h1>
             <div className={styles.containerMercados}>
+                <div className={styles.Mercados}>
                 <div className={styles.divAmarela}></div>
                 <div className={styles.divVermelha}></div>
                 <div className={styles.divAmarela}></div>
                 <div className={styles.divVermelha}></div>
-                <div className={styles.divVermelha}></div>
+                </div>
+               <div className={styles.Mercados}>
+               <div className={styles.divVermelha}></div>
                 <div className={styles.divAmarela}></div>
                 <div className={styles.divVermelha}></div>
                 <div className={styles.divAmarela}></div>
-                <div className={styles.divAmarela}></div>
+               </div>
+              <div className={styles.Mercados}>
+              <div className={styles.divAmarela}></div>
                 <div className={styles.divVermelha}></div>
                 <div className={styles.divAmarela}></div>
                 <div className={styles.divVermelha}></div>
+              </div>
             </div>
         </section>
     );
