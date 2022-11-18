@@ -3,10 +3,11 @@
     height: 900px;
     display: flex;
     align-items: center;
-    /* background-color: red; */
+    /* background-color: blue; */
     background-image: url(../../Images/BGHomePt2.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% ;
+    background-position-y:-56px ;
     justify-content: right;
 }
 
